@@ -26,8 +26,8 @@ def get_ans(nums:list,target:int)->int:
 - - -
 ### 示例
 
-- [lc-3-最长无重复子串](lc-3.py)
+- [lc-3-最长无重复子串](same_direction/lc-3.py)
 
-- [lc-209-和大于等于k最短子数组](lc-209.py)
+- [lc-209-和大于等于k最短子数组](same_direction/lc-209.py)
 
-- [lc-713-乘积小于k的子数组个数](lc-713.py)
+- [lc-713-乘积小于k的子数组个数](same_direction/lc-713.py)
