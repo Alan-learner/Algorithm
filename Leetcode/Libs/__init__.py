@@ -17,7 +17,7 @@ from sortedcontainers import SortedList
 from itertools import permutations, combinations, accumulate
 
 MOD = 10 ** 9 + 7
-lowbit = lambda x: x & -x
+lowbit = lambda x_: x_ & -x_
 inf = int(1e20)
 
 
