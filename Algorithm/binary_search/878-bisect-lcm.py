@@ -9,11 +9,12 @@ MOD = 10 ** 9 + 7
 class Solution:
     def nthMagicalNumber(self, n: int, a: int, b: int) -> int:
         # 二分
-        lm = lcm(a, b)
+        lm = lcm(a, b)  # 最小公倍数
         left, right = 0, min(a, b) * n  # 左右均为开区间
         while left + 1 < right:
-            mid = left + (right - left) // 2
+            mid = left + (right - left) // 2  # 防止数组越界
             if mid // a + mid // b - mid // lm <= n:
+                # 二分的判断标准
                 left = mid
             else:
                 right = mid

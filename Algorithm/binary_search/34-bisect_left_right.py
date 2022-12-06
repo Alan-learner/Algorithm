@@ -36,7 +36,7 @@ def lower_bound_right(nums: List[int], target: int) -> int:
 
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        # 二分， 在闭区间 [left, right] 查询
+        # 返回第一个大于等于target的数、第一个大于target的数
         n = len(nums)
         if n == 0:
             return [-1, -1]
