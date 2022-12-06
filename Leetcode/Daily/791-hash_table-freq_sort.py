@@ -6,6 +6,7 @@ from Leetcode.Libs import *
 
 class Solution:
     def customSortString(self, order: str, s: str) -> str:
+        # 根据order数组对s排序
         cnt = Counter(s)
         ans = ""
         for c in order:
