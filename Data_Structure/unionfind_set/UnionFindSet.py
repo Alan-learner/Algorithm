@@ -14,10 +14,9 @@ class UnionFindSet:
         return self.father[x]
 
     def merge(self, a: int, b: int):
-        fa = self.find(a)
         fb = self.find(b)
-        self.father[fa] = fb
-        self.size[fb] += self.size[fa]
+        self.father[a] = fb
+        self.size[fb] += self.size[a]
 
 
 def main():
