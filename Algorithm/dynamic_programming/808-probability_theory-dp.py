@@ -1,8 +1,6 @@
 # encoding: utf-8
 # author: Alan-learner
 
-from Leetcode.Libs import *
-
 
 class Solution:
     def soupServings(self, n: int) -> float:

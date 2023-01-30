@@ -2,7 +2,7 @@
 # author: Alan-learner
 from typing import Tuple
 
-from Leetcode.Libs import *
+from Platform.Leetcode.Libs import *
 
 
 class Solution:

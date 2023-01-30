@@ -2,7 +2,7 @@
 # author: Alan-learner
 
 
-from Leetcode.Libs import *
+from Platform.Leetcode.Libs import *
 
 
 class Solution:

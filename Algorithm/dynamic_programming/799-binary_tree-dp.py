@@ -1,8 +1,6 @@
 # encoding: utf-8
 # author: Alan-learner
 
-from Leetcode.Libs import *
-
 
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:

@@ -1,7 +1,7 @@
 # encoding: utf-8
 # author: Alan-learner
 
-from Leetcode.Libs import *
+from Platform.Leetcode.Libs import *
 
 
 # time complexity:O（n）
