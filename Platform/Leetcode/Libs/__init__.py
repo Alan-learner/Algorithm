@@ -25,6 +25,13 @@ MOD = 10 ** 9 + 7
 lowbit = lambda x_: x_ & -x_
 inf = int(1e20)
 
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 def main():
     pass
 
