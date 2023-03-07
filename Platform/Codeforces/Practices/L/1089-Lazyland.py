@@ -15,11 +15,9 @@ def main():
         mx = max(v)
         idx = v.index(mx)
         v.pop(idx)
-        # if not v:
-        #     v = [0]
         tmp.extend(v)
     tmp.sort()
-    print(sum(tmp[:k - len(dic)]))
+    print(sum(tmp[:k-len(dic)]))
 
 
 if __name__ == '__main__':
